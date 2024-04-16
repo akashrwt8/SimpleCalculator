@@ -24,10 +24,21 @@ int main() {
                 printf("Addition of two number is %d\n", add(x, y));
                 break;
             }
+             case 2:{
+                int x, y;
+                printf("Enter a number : ");
+                scanf("%d", &x);
+                printf("Enter a number : ");
+                scanf("%d", &y);
+                printf("Subtraction of two number is %d\n", sub(x, y));
+                break;
+            }
             default:
                 if (choice != 0)
                 {
                     printf("Invalid input\n");
+                } else {
+                     printf("Exiting calculator\n");
                 }
                 break;
             }
