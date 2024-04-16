@@ -7,8 +7,9 @@ int main() {
         {
             printf("Menu :\n");
             printf("1 Adding two numbers\n");
-            printf("2 Adding two float numbers\n");
-            printf("3 Adding two numbers\n");
+            printf("2 Subtraction two numbers\n");
+            printf("3 Division of two numbers\n");
+            printf("4 Multiplication of two numbers\n");
             printf("0 Ending program\n");
             printf("Enter a choice : ");
             scanf("%d", &choice);
