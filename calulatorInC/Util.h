@@ -12,3 +12,7 @@ int sub (int a, int b) {
     return a - b;
 }
 
+// Divsion 
+int div(int a, int b) {
+    return a / b;
+}

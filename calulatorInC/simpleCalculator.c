@@ -33,6 +33,20 @@ int main() {
                 printf("Subtraction of two number is %d\n", sub(x, y));
                 break;
             }
+            case 3:{
+                int x, y;
+                printf("Enter a number : ");
+                scanf("%d", &x);
+                printf("Enter a number : ");
+                scanf("%d", &y);
+                if (y == 0){
+                    printf("Can not divide with zero\n");
+                    printf("Enter a number : ");
+                    scanf("%d", &y);
+                }
+                printf("Division of two number is %d\n", sub(x, y));
+                break;
+            }
             default:
                 if (choice != 0)
                 {
